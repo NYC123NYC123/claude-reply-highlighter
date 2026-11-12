@@ -1,5 +1,5 @@
 {
-  "name": "your-move",
+  "name": "claude-reply-highlighter",
   "version": "0.1.0",
   "description": "Highlights the things you have to do or answer in a soft yellow card at the end of Claude's reply.",
   "author": { "name": "NYC123NYC123" }

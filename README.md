@@ -1,4 +1,4 @@
-# Your Move
+# Claude Reply Highlighter
 
 A small mod for Claude Code. When Claude's reply needs something from you (a decision, an approval, a step to take, a question to answer), those items are pulled out of the wall of text and shown in a soft yellow card at the very end of the reply, under the label **YOUR MOVE**.
 
@@ -18,7 +18,7 @@ You need a recent version of Claude Code (2.1.321 or newer). Older versions can'
 **In a terminal session of Claude Code**, type this at the prompt:
 
 ```
-/plugin install your-move --marketplace NYC123NYC123/your-move
+/plugin install claude-reply-highlighter --marketplace NYC123NYC123/claude-reply-highlighter
 ```
 
 Answer `y` to add the marketplace, then press Enter to install it for yourself.
@@ -26,10 +26,10 @@ Answer `y` to add the marketplace, then press Enter to install it for yourself.
 **From a plain terminal (PowerShell, Terminal):**
 
 ```
-claude plugin install your-move --marketplace NYC123NYC123/your-move
+claude plugin install claude-reply-highlighter --marketplace NYC123NYC123/claude-reply-highlighter
 ```
 
-**In the Claude desktop app:** click **+** next to the message box, then **Plugins**, then **Add marketplace**, and enter `NYC123NYC123/your-move`. Then choose **Add plugin** on Your Move.
+**In the Claude desktop app:** click **+** next to the message box, then **Plugins**, then **Add marketplace**, and enter `NYC123NYC123/claude-reply-highlighter`. Then choose **Add plugin** on Claude Reply Highlighter.
 
 Start a new session afterwards. The card appears the next time Claude needs something from you.
 
@@ -48,5 +48,5 @@ The colours live at the top of `hooks/register.tsx`:
 ## Remove it
 
 ```
-claude plugin uninstall your-move
+claude plugin uninstall claude-reply-highlighter
 ```

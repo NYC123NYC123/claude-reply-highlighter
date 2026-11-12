@@ -1,5 +1,5 @@
 {
-  "name": "your-move",
+  "name": "claude-reply-highlighter",
   "owner": { "name": "NYC123NYC123" },
-  "plugins": [{ "name": "your-move", "source": "./" }]
+  "plugins": [{ "name": "claude-reply-highlighter", "source": "./" }]
 }

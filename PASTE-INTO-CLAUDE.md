@@ -3,10 +3,10 @@
 Copy everything in the box below and paste it into Claude Code as a message.
 
 ```
-Please install the "your-move" plugin for me at the user scope, from the GitHub
-marketplace NYC123NYC123/your-move. Run this in a terminal:
+Please install the "claude-reply-highlighter" plugin for me at the user scope, from the GitHub
+marketplace NYC123NYC123/claude-reply-highlighter. Run this in a terminal:
 
-claude plugin install your-move --marketplace NYC123NYC123/your-move
+claude plugin install claude-reply-highlighter --marketplace NYC123NYC123/claude-reply-highlighter
 
 Before you install, read the repository's hooks/register.tsx and tell me in two
 sentences what the plugin does. If the install fails, check my Claude Code

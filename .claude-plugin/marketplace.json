@@ -1,0 +1,5 @@
+{
+  "name": "your-move",
+  "owner": { "name": "NYC123NYC123" },
+  "plugins": [{ "name": "your-move", "source": "./" }]
+}
